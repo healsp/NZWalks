@@ -7,9 +7,6 @@ namespace NZwalks.API.Data
     {
         public NZWalksDbContext(DbContextOptions<NZWalksDbContext> options): base(options)
         {
-
-
-
         }
 
         public DbSet<Region> Regions { get; set; }
